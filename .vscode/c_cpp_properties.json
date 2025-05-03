@@ -1,0 +1,23 @@
+{
+    "configurations":[
+        {
+            "name": "Mac",
+            "compilerPath": "/usr/bin/clang",
+            "intelliSenseMode": "macos-clang-x64",
+            "includePath": [
+                "${myIncludePath}", 
+                "/opt/homebrew/opt/sfml@2/include",
+                "/opt/homebrew/opt/box2d/include"
+        ],
+            "defines": ["${myDefines}"],
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "macFrameworkPath": ["/System/Library/Frameworks", "/Library/Frameworks"],
+            "browse": {
+              "path": ["${myIncludePath}", "${workspaceFolder}"]
+            }
+          }
+    ],
+    "version": 4,
+    "enableConfigurationSquiggles": true
+}
